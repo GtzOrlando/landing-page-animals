@@ -5,10 +5,9 @@ body {
     margin: 0;
 }
 
-.header, .topInfo, .footer {
-background-color: #1F2937;    
+.header, .footer, .topInfo {
+    background-color: #1F2937;
 }
-
 .header, .footer {
     height: 60px;
 }
@@ -17,8 +16,7 @@ background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
-    margin: 0;
+    padding: 0px 160px;
 }
 
 .logo {
@@ -46,34 +44,88 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0;
 }
 
 .topInfo {
     display: flex;
     justify-content: center;
     gap: 20px;
+    color: #e5e7eb;
+    padding: 80px 160px;
+}
+
+.introTitle {
+    text-align: left;
+}
+
+.frontPageImage {
+    width: 1000px;
+    height: 200px;
+    background-color: gray;
 }
 
 .mainInfo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 15px 30px;
+    background-color: white;
+}
+
+.title, .introTitle {
+    font-weight: bolder;
+    font-size: 36px;
 }
 
 .title {
     padding-bottom: 15px;
+    text-align: center;
+    padding: 30px;
 }
 
 .examples {
-    width: 800px;
     display: flex;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 80px;
+}
+
+.animals {
+    width: 180px;
+}
+
+.epicPhrase {
+    background-color: #e5e7eb;
+    padding: 80px 220px;   
+}
+
+.phrase {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.phraseAutor {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.convincingSignUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 50px 140px;
+    padding: 30px 60px;
+    color: #e5e7eb;
+}
+
+.infoTitle {
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #e5e7eb;
 }
