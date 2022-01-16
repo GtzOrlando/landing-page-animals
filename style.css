@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header, .footer, .topInfo {
@@ -23,6 +24,8 @@ body {
     font-weight: 700;
     font-size: 24px;
     color: #f9faf8;
+    width: 100px;
+    height: auto;
 }
 
 ul {
@@ -65,6 +68,23 @@ a {
     background-color: gray;
 }
 
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button.top {
+    margin-top: 10px;
+    border: 2px solid #3882F6;
+}
+
+button.bot {
+    border: 2px solid #e5e7eb;
+}
+
 .mainInfo {
     padding: 15px 30px;
     background-color: white;
@@ -88,8 +108,19 @@ a {
     padding-bottom: 80px;
 }
 
+.animalPhoto {
+    width: 180px;
+    height: 180px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
 .animals {
     width: 180px;
+}
+
+.animalDescription {
+    text-align: center;
 }
 
 .epicPhrase {
